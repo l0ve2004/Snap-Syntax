@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Barron2;
+    src: url(./Fonts/baron.otf);
+}
+
+h2 {
+    font-size: 4rem
+}
+
+.frontSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url("./Alabay_Assets/Section2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frontImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.frontText {
+    font-family: Barron2;
+    color: orangered;
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 12rem;
+
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 9.7rem;
+    color: white;
+}
+.frontPara p{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    word-break: break-all;
+}
+
+.midBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.medSection {
+    padding: 10px;
+    /* background-color: plum; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 1rem 7rem 0;
+    font-size: 2rem;
+}
+
+.sectionSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    margin-top: 2rem;
+}
+
+.slides {
+    /* width: 25%; */
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 4rem 0 1rem;
+}
+
+.slides img {
+    width: 50%;
+}
+
+.sliderArrow img {
+    aspect-ratio: 1;
+    width: 50px;
+}
+
+.projectVision>p {
+    font-family: Barron2;
+    color: orangered;
+    font-size: 9.8rem;
+    text-align: center;
+}
+
+.projectVision {
+    font-size: 2.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.vissionImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url(./Alabay_Assets/Rectangle4.png);
+    background-size: 204%;
+    background-repeat: no-repeat;
+}
+
+.roadMap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffbf00bf; */
+    width: 100vw;
+    height: 20%;
+    font-size: 8rem;
+    background-size: cover;
+    background-repeat:repeat-y;
+    color: white;
+    font-family: Barron2;
+}
+.roadMap{
+    margin-top: 4rem;
+}
+.roadMap img{
+    translate: 50rem;
+    position: relative;
+    top: -7rem;
+    height: 100%;
+    scale: 1.5;
+    /* background: transparent; */
+}
+.journey{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-image:url(./Alabay_Assets/Section2.png); */
+    background-size: cover;
+    width: 100vw;
+    height: 20rem;
+    font-family: Barron2;
+    color: white;
+    font-size: 8rem;
+    margin: 0 -18rem 0rem 0;
+}
+.secondMidSection{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.secondslide{
+    width: 25%;
+    aspect-ratio: 1;
+    padding: 20px;
+    
+}
+
+.secondslide img{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.Tokenomics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Barron2;
+    width: 100vw;
+    height: 20rem;
+    background-image: url(./Alabay_Assets/Rectangle4.png);
+    background-size: cover;
+    background-position: center;
+}
+.tokSlides{
+    width: 100vw;
+    height: 25%;
+}
+.moneyDog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verticalBox{
+    width: 50%;
+}
+
+.moneyImg{
+    width: 50%;
+}
+.moneyImg img{
+    width: 100%;
+}
